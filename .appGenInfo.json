@@ -1,0 +1,29 @@
+{
+  "generationParameters": {
+    "generationDate": "Wed Sep 17 2025 22:20:28 GMT+0530 (India Standard Time)",
+    "generatorPlatform": "Visual Studio Code",
+    "serviceType": "SAP System (ABAP On-Premise)",
+    "metadataFilename": "",
+    "serviceUrl": "http://sapsdvapp.aws.londonhydro.cloud:8000/sap/opu/odata/sap/ZUI_OPERATION",
+    "appName": "zlh_maintenance_order_operations",
+    "appTitle": "Maintenance Order Operations",
+    "appDescription": "Maintenance Order Operations",
+    "appNamespace": "com.sap.lh.mr",
+    "ui5Theme": "sap_horizon",
+    "ui5Version": "1.120.0",
+    "enableCodeAssist": false,
+    "enableEslint": false,
+    "enableTypeScript": false,
+    "showMockDataInfo": true,
+    "generatorVersion": "1.18.6",
+    "template": "List Report Page V2",
+    "generatorName": "SAP Fiori Application Generator",
+    "entityRelatedConfig": [
+      {
+        "type": "Main Entity",
+        "value": "MaintenanceOrderOperations"
+      }
+    ],
+    "launchText": "To launch the generated application, run the following from the generated application root folder:\n\n```\n    npm start\n```"
+  }
+}
