@@ -106,6 +106,35 @@
       "config": {},
       "routes": [],
       "targets": {}
+    },
+    "extends": {
+      "extensions": {
+        "sap.ui.controllerExtensions": {
+          "sap.suite.ui.generic.template.ListReport.view.ListReport": {
+            "controllerName": "com.sap.lh.mr.zlhmaintenanceorderoperations.ext.controller.ListReportExt",
+            "sap.ui.generic.app": {
+              "MaintenanceOrderOperations": {
+                "EntitySet": "MaintenanceOrderOperations",
+                "Actions": {
+                  "onSelection": {
+                    "id": "onSelectionButton",
+                    "text": "New Button",
+                    "press": "onSelection",
+                    "enabled": "com.sap.lh.mr.zlhmaintenanceorderoperations.ext.controller.ListReportExt.isEnabledForSingleSelection",
+                    "requiresSelection": true
+                  },
+                  "DataFieldForAction::com.sap.lh.mr.zlhmaintenanceorderoperations.addoperation": {
+                    "enableOnSelect": "single"
+                  },
+                  "DataFieldForAction::com.sap.lh.mr.zlhmaintenanceorderoperations.editoperation": {
+                    "enableOnSelect": "single"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
     }
   },
   "sap.ui.generic.app": {
